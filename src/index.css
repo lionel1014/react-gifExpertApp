@@ -1,13 +1,67 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+
+  font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+
+  padding: 60px;  
+
+  background-color: #6b6b6b;
+
+}
+
+input{
+  color: #cc294a;
+  background-color: rgb(41, 39, 39);
+  font-size: 1.1rem;
+  width: 100%;
+}
+
+.imagenesGrid{
+  display:flex ;
+  flex-direction:row ;
+  flex-wrap: wrap;
+}
+/* 
+.imagenes{
+  align-content: center;
+  border: 3px solid #44052e;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  overflow: hidden;
+} */
+
+
+.imagenes {
+  align-content: center;
+  border: 5px solid #3c133f;
+  -webkit-border-radius: 11px 11px 25px / 11px 11px 36px;
+  border-radius: 11px 11px 25px / 11px 11px 36px;
+  color: #ffffff;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: #cc294a;
+  -webkit-box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.3) ;
+  box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.3) ;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2) ;
+  
+}
+
+.imagenes p{
+  padding: 4px;
+  text-align: center;
+}
+
+.imagenes img{
+  max-height: 200px;
+}
+
+.animate__animated.animate__bounceInLeft{
+
+  --animate-duration: 1.5s;
+  --animate-delay: 0.9s;
+
 }

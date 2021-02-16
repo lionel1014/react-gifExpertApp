@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en GifGridItem => componente Debe de mostrar el componente correctamente  1`] = `
+<div
+  className="imagenes animate__animated animate__flipInX"
+>
+  <p>
+     
+    Un título
+     
+  </p>
+  <img
+    alt="Un título"
+    src="https://localhots/jajaja.jpg"
+  />
+</div>
+`;

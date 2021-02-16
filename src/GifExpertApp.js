@@ -3,11 +3,10 @@ import { AddCategory } from './components/AddCategory';
 import { GifGrid } from './components/GifGrid';
 
 
-export const GifExpertApp = () => {
-
-    //const categories = ['DMC','Resident Evil','Wow'];
-    const [categories, setCategories] = useState(['Gamer']);
-
+export const GifExpertApp = ({defaultCategories = []}) => {
+    // const categories = ['DMC','Resident Evil','Wow'];
+    // const [categories, setCategories] = useState(['Gamer']);
+    const [categories, setCategories] = useState(defaultCategories);
     // const handleAdd = () =>{
     //     setCategories([...categories,'Lol']);
     //     // setCategories( cate => [...cate,'Lol']);
